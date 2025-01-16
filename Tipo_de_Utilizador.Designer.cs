@@ -49,6 +49,7 @@
             estavel_btn.TabIndex = 6;
             estavel_btn.Text = "Estável";
             estavel_btn.UseVisualStyleBackColor = false;
+            estavel_btn.Click += estavel_btn_Click;
             // 
             // endividado_btn
             // 
@@ -64,6 +65,7 @@
             endividado_btn.TabIndex = 7;
             endividado_btn.Text = "Endividado";
             endividado_btn.UseVisualStyleBackColor = false;
+            endividado_btn.Click += endividado_btn_Click;
             // 
             // pictureBox1
             // 

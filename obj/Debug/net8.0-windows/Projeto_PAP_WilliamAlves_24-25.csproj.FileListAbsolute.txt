@@ -38,3 +38,5 @@ C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24-25.pdb
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24-25.genruntimeconfig.cache
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\ref\Projeto_PAP_WilliamAlves_24-25.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24_25.DadosIniciais.resources
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24-25.sourcelink.json

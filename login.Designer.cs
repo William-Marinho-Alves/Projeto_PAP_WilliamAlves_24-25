@@ -98,6 +98,7 @@
             password_txt.Size = new Size(444, 25);
             password_txt.TabIndex = 4;
             password_txt.UseSystemPasswordChar = true;
+            password_txt.TextChanged += password_txt_TextChanged;
             // 
             // VerPasseLogin
             // 
@@ -117,7 +118,8 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(-151, -42);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(407, 247);
+            pictureBox1.Size = new Size(310, 254);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 

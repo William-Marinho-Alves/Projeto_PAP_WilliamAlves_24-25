@@ -45,5 +45,10 @@ namespace Projeto_PAP_WilliamAlves_24_25
                 password_txt.UseSystemPasswordChar = true;
             }
         }
+
+        private void password_txt_TextChanged(object sender, EventArgs e)
+        {
+            
+    }
     }
 }

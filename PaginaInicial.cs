@@ -16,5 +16,10 @@ namespace Projeto_PAP_WilliamAlves_24_25
         {
             InitializeComponent();
         }
+
+        private void PaginaInicial_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
