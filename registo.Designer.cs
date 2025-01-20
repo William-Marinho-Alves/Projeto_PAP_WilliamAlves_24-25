@@ -32,12 +32,12 @@
             password_txt = new TextBox();
             gmail_txt = new TextBox();
             registo_btn = new Button();
-            Logo = new PictureBox();
             link_login = new LinkLabel();
             VerPasseRegisto = new CheckBox();
             Login_logo = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)Logo).BeginInit();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Login_logo).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // password_txt
@@ -61,6 +61,7 @@
             gmail_txt.Name = "gmail_txt";
             gmail_txt.Size = new Size(444, 25);
             gmail_txt.TabIndex = 6;
+            gmail_txt.TextChanged += gmail_txt_TextChanged;
             // 
             // registo_btn
             // 
@@ -77,16 +78,6 @@
             registo_btn.Text = "Registar";
             registo_btn.UseVisualStyleBackColor = false;
             registo_btn.Click += registo_btn_Click;
-            // 
-            // Logo
-            // 
-            Logo.BackColor = Color.Transparent;
-            Logo.BackgroundImage = (Image)resources.GetObject("Logo.BackgroundImage");
-            Logo.Location = new Point(-154, -39);
-            Logo.Name = "Logo";
-            Logo.Size = new Size(407, 247);
-            Logo.TabIndex = 8;
-            Logo.TabStop = false;
             // 
             // link_login
             // 
@@ -122,23 +113,32 @@
             Login_logo.TabIndex = 11;
             Login_logo.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(108, 145);
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            // 
             // registo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
             Controls.Add(Login_logo);
             Controls.Add(VerPasseRegisto);
             Controls.Add(link_login);
             Controls.Add(password_txt);
             Controls.Add(gmail_txt);
             Controls.Add(registo_btn);
-            Controls.Add(Logo);
             Name = "registo";
             Text = "registo";
-            ((System.ComponentModel.ISupportInitialize)Logo).EndInit();
             ((System.ComponentModel.ISupportInitialize)Login_logo).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -148,9 +148,9 @@
         private TextBox password_txt;
         private TextBox gmail_txt;
         private Button registo_btn;
-        private PictureBox Logo;
         private LinkLabel link_login;
         private CheckBox VerPasseRegisto;
         private PictureBox Login_logo;
+        private PictureBox pictureBox1;
     }
 }

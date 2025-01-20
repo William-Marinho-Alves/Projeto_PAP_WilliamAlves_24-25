@@ -87,6 +87,7 @@
             gmail_txt.Name = "gmail_txt";
             gmail_txt.Size = new Size(444, 25);
             gmail_txt.TabIndex = 3;
+            gmail_txt.TextChanged += gmail_txt_TextChanged;
             // 
             // password_txt
             // 
@@ -114,12 +115,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Location = new Point(-151, -42);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(310, 254);
-            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.Size = new Size(108, 145);
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
@@ -129,13 +128,13 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
             Controls.Add(VerPasseLogin);
             Controls.Add(password_txt);
             Controls.Add(gmail_txt);
             Controls.Add(Login_logo);
             Controls.Add(link_registo);
             Controls.Add(Login_btn);
-            Controls.Add(pictureBox1);
             Name = "login";
             Text = "login";
             Load += Form1_Load;

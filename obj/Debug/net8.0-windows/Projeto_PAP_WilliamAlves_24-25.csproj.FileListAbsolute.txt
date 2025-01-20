@@ -40,3 +40,11 @@ C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\ref\Projeto_PAP_WilliamAlves_24-25.dll
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24_25.DadosIniciais.resources
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24-25.sourcelink.json
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_PAP_WilliamAlves_24-25.csproj.AssemblyReference.cache
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_.F9BC11DF.Up2Date

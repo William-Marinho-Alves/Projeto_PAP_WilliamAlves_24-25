@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\paginainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:paginainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +19,24 @@
       "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:registo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:dadosiniciais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:tipo_de_utilizador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\paginainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|solutionrelative:paginainicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EB97CBE5-D0A6-42A1-9936-FFF5E2F2A5D4}|Projeto_PAP_WilliamAlves_24-25.csproj|c:\\users\\wiext\\onedrive - escola digital\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25\\projeto_pap_williamalves_24-25.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -62,7 +62,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DadosIniciais.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
+              "RelativeDocumentMoniker": "DadosIniciais.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs [Projeto]",
+              "RelativeToolTip": "DadosIniciais.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:34:54.404Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs [Projeto]",
+              "RelativeToolTip": "login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T02:35:45.636Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
+              "RelativeDocumentMoniker": "login.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
+              "RelativeToolTip": "login.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAA7wAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:45:57.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "registo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
+              "RelativeDocumentMoniker": "registo.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs [Projeto]",
+              "RelativeToolTip": "registo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:32:48.774Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "registo.cs",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
+              "RelativeDocumentMoniker": "registo.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
+              "RelativeToolTip": "registo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:32:50.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tipo_de_Utilizador.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\Tipo_de_Utilizador.cs",
+              "RelativeDocumentMoniker": "Tipo_de_Utilizador.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\Tipo_de_Utilizador.cs [Projeto]",
+              "RelativeToolTip": "Tipo_de_Utilizador.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:32:29.523Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DadosIniciais.cs",
+              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
+              "RelativeDocumentMoniker": "DadosIniciais.cs",
+              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
+              "RelativeToolTip": "DadosIniciais.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAMwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T01:35:48.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Tipo_de_Utilizador.cs",
               "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\Tipo_de_Utilizador.cs",
               "RelativeDocumentMoniker": "Tipo_de_Utilizador.cs",
@@ -75,44 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DadosIniciais.cs",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
-              "RelativeDocumentMoniker": "DadosIniciais.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
-              "RelativeToolTip": "DadosIniciais.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAMwBwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:35:48.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tipo_de_Utilizador.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\Tipo_de_Utilizador.cs",
-              "RelativeDocumentMoniker": "Tipo_de_Utilizador.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\Tipo_de_Utilizador.cs [Projeto]",
-              "RelativeToolTip": "Tipo_de_Utilizador.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:32:29.523Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DadosIniciais.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs",
-              "RelativeDocumentMoniker": "DadosIniciais.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\DadosIniciais.cs [Projeto]",
-              "RelativeToolTip": "DadosIniciais.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:34:54.404Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "PaginaInicial.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\PaginaInicial.cs",
               "RelativeDocumentMoniker": "PaginaInicial.cs",
@@ -120,56 +170,6 @@
               "RelativeToolTip": "PaginaInicial.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-14T21:59:50.448Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "login.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs [Projeto]",
-              "RelativeToolTip": "login.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T02:35:45.636Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
-              "RelativeDocumentMoniker": "login.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\login.cs",
-              "RelativeToolTip": "login.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAIAxwDIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:45:57.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "registo.cs",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
-              "RelativeDocumentMoniker": "registo.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
-              "RelativeToolTip": "registo.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAEwBwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:32:50.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "registo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs",
-              "RelativeDocumentMoniker": "registo.cs",
-              "ToolTip": "C:\\Users\\Wiext\\OneDrive - Escola Digital\\Projeto_PAP_WilliamAlves_24-25\\Projeto_PAP_WilliamAlves_24-25\\registo.cs [Projeto]",
-              "RelativeToolTip": "registo.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T01:32:48.774Z",
               "EditorCaption": " [Projeto]"
             },
             {

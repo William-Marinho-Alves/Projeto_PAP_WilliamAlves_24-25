@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+
 
 namespace Projeto_PAP_WilliamAlves_24_25
 {
@@ -14,20 +16,88 @@ namespace Projeto_PAP_WilliamAlves_24_25
     {
         public registo()
         {
-            InitializeComponent();
+        InitializeComponent();
+        
+        ConfigurePlaceholder(); 
         }
 
+        private void ConfigurePlaceholder()
+        {
+            
+            gmail_txt.Text = "Insira o seu gmail";
+            gmail_txt.ForeColor = Color.DarkGoldenrod;
+            password_txt.Text = "Insira sua Palavra-Passe";
+            password_txt.ForeColor = Color.DarkGoldenrod;
+            password_txt.UseSystemPasswordChar = false;
+
+
+            password_txt.Enter += (s, e) =>
+            {
+                if (password_txt.Text == "Insira sua Palavra-Passe")
+                {
+                    password_txt.Text = "";
+                    password_txt.ForeColor = Color.Gold;
+                }
+            };
+
+            password_txt.Leave += (s, e) =>
+            {
+                if (string.IsNullOrWhiteSpace(password_txt.Text))
+                {
+                    password_txt.Text = "Insira sua Palavra-Passe";
+                    password_txt.ForeColor = Color.DarkGoldenrod;
+                    password_txt.UseSystemPasswordChar = false;
+                }
+            };
+            gmail_txt.Enter += (s, e) =>
+            {
+                if (gmail_txt.Text == "Insira o seu gmail")
+                {
+                    gmail_txt.Text = "";
+                    gmail_txt.ForeColor = Color.Gold;
+                }
+            };
+
+            gmail_txt.Leave += (s, e) =>
+            {
+                if (string.IsNullOrWhiteSpace(gmail_txt.Text))
+                {
+                    gmail_txt.Text = "Insira o seu gmail";
+                    gmail_txt.ForeColor = Color.DarkGoldenrod;
+                }
+            };
+        }
         private void registo_btn_Click(object sender, EventArgs e)
         {
+            string nomeUtilizador = gmail_txt.Text;
+            string palavraPasse = password_txt.Text;
 
+            // String de conexão à base de dados
+            string connString = @"Server=JONNY;Database=UtilizadoresDB;Trusted_Connection=True;";
 
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                string query = "INSERT INTO Utilizadores (NomeUtilizador, PalavraPasse) VALUES (@NomeUtilizador, @PalavraPasse)";
 
+                SqlCommand cmd = new SqlCommand(query, conn);
+                cmd.Parameters.AddWithValue("@NomeUtilizador", nomeUtilizador);
+                cmd.Parameters.AddWithValue("@PalavraPasse", palavraPasse);
 
-            //se registar
-            this.Hide();
-            login Login = new login();
-            Login.Show();
+                conn.Open();
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Registo efetuado com sucesso!");
+                // Voltar para o formulário de login
+                this.Hide();
+                login Login = new login();
+                Login.Show();
+            }
         }
+
+
+
+
+
 
         private void password_txt_TextChanged(object sender, EventArgs e)
         {
@@ -51,11 +121,21 @@ namespace Projeto_PAP_WilliamAlves_24_25
                 // Exibe a senha no TextBox
                 password_txt.UseSystemPasswordChar = false;
             }
-            else
+            else if (!VerPasseRegisto.Checked && password_txt.ForeColor == Color.DarkGoldenrod)
             {
+                // Exibe a senha no TextBox
+                password_txt.UseSystemPasswordChar = false;
+            }
+            
+            else {
                 // Oculta a senha no TextBox
                 password_txt.UseSystemPasswordChar = true;
             }
+        }
+
+        private void gmail_txt_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
