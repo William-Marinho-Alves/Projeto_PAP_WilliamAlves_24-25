@@ -12,7 +12,10 @@ namespace Projeto_PAP_WilliamAlves_24_25
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
 
-            login Login = new login();
+            /* login Login = new login();
+             Login.ShowDialog();*/
+
+            PaginaInicial Login = new PaginaInicial();
             Login.ShowDialog();
 
             Application.Run();

@@ -61,5 +61,10 @@ namespace Projeto_PAP_WilliamAlves_24_25
         {
 
         }
+
+        private void Exemplo_txt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

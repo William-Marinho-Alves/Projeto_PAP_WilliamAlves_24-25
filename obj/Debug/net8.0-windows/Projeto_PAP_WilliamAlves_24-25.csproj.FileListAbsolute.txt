@@ -48,3 +48,4 @@ C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\obj\Debug\net8.0-windows\Projeto_.F9BC11DF.Up2Date
+C:\Users\Wiext\OneDrive - Escola Digital\Projeto_PAP_WilliamAlves_24-25\Projeto_PAP_WilliamAlves_24-25\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll

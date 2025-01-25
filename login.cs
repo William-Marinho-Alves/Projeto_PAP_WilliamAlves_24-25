@@ -1,4 +1,5 @@
 using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 
 
@@ -16,7 +17,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
         private void ConfigurePlaceholder()
         {
 
-            gmail_txt.Text = "Insira o seu gmail";
+            gmail_txt.Text = "Insira o seu email";
             gmail_txt.ForeColor = Color.DarkGoldenrod;
             password_txt.Text = "Insira sua Palavra-Passe";
             password_txt.ForeColor = Color.DarkGoldenrod;
@@ -43,7 +44,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
             };
             gmail_txt.Enter += (s, e) =>
             {
-                if (gmail_txt.Text == "Insira o seu gmail")
+                if (gmail_txt.Text == "Insira o seu email")
                 {
                     gmail_txt.Text = "";
                     gmail_txt.ForeColor = Color.Gold;
@@ -54,7 +55,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
             {
                 if (string.IsNullOrWhiteSpace(gmail_txt.Text))
                 {
-                    gmail_txt.Text = "Insira o seu gmail";
+                    gmail_txt.Text = "Insira o seu email";
                     gmail_txt.ForeColor = Color.DarkGoldenrod;
                 }
             };
@@ -78,7 +79,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
 
         private void Login_btn_Click(object sender, EventArgs e)
         {
-            string nomeUtilizador = gmail_txt.Text;
+            string email = gmail_txt.Text;
             string palavraPasse = password_txt.Text;
 
             // String de conexão à base de dados
@@ -86,10 +87,10 @@ namespace Projeto_PAP_WilliamAlves_24_25
 
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                string query = "SELECT COUNT(1) FROM Utilizadores WHERE NomeUtilizador = @NomeUtilizador AND PalavraPasse = @PalavraPasse";
+                string query = "SELECT COUNT(1) FROM Utilizadores WHERE Email = @Email AND PalavraPasse = @PalavraPasse";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@NomeUtilizador", nomeUtilizador);
+                cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@PalavraPasse", palavraPasse);
 
                 conn.Open();
@@ -105,7 +106,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
                 }
                 else
                 {
-                    MessageBox.Show("Nome de utilizador ou palavra-passe incorretos!");
+                    MessageBox.Show("Email ou palavra-passe incorretos!");
                 }
             }
         

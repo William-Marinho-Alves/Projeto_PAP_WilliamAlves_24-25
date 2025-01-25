@@ -120,6 +120,7 @@
             Exemplo_txt.Name = "Exemplo_txt";
             Exemplo_txt.Size = new Size(444, 25);
             Exemplo_txt.TabIndex = 12;
+            Exemplo_txt.TextChanged += Exemplo_txt_TextChanged;
             // 
             // DadosIniciais
             // 

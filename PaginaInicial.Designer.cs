@@ -32,6 +32,8 @@
             SemanalBtn = new Button();
             MensalBtn = new Button();
             Dicas_txt = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // DiarioBtn
@@ -40,12 +42,13 @@
             DiarioBtn.FlatStyle = FlatStyle.Flat;
             DiarioBtn.Font = new Font("Bernard MT Condensed", 13.8F);
             DiarioBtn.ForeColor = Color.DarkGoldenrod;
-            DiarioBtn.Location = new Point(22, 384);
+            DiarioBtn.Location = new Point(12, 394);
             DiarioBtn.Name = "DiarioBtn";
             DiarioBtn.Size = new Size(121, 44);
             DiarioBtn.TabIndex = 0;
             DiarioBtn.Text = "Diário";
             DiarioBtn.UseVisualStyleBackColor = true;
+            DiarioBtn.Click += DiarioBtn_Click;
             // 
             // SemanalBtn
             // 
@@ -53,12 +56,13 @@
             SemanalBtn.FlatStyle = FlatStyle.Flat;
             SemanalBtn.Font = new Font("Bernard MT Condensed", 13.8F);
             SemanalBtn.ForeColor = Color.DarkGoldenrod;
-            SemanalBtn.Location = new Point(163, 384);
+            SemanalBtn.Location = new Point(153, 394);
             SemanalBtn.Name = "SemanalBtn";
             SemanalBtn.Size = new Size(121, 44);
             SemanalBtn.TabIndex = 1;
             SemanalBtn.Text = "Semanal";
             SemanalBtn.UseVisualStyleBackColor = true;
+            SemanalBtn.Click += SemanalBtn_Click;
             // 
             // MensalBtn
             // 
@@ -66,12 +70,13 @@
             MensalBtn.FlatStyle = FlatStyle.Flat;
             MensalBtn.Font = new Font("Bernard MT Condensed", 13.8F);
             MensalBtn.ForeColor = Color.DarkGoldenrod;
-            MensalBtn.Location = new Point(304, 384);
+            MensalBtn.Location = new Point(294, 394);
             MensalBtn.Name = "MensalBtn";
             MensalBtn.Size = new Size(121, 44);
             MensalBtn.TabIndex = 2;
             MensalBtn.Text = "Mensal";
             MensalBtn.UseVisualStyleBackColor = true;
+            MensalBtn.Click += MensalBtn_Click;
             // 
             // Dicas_txt
             // 
@@ -85,12 +90,22 @@
             Dicas_txt.TabIndex = 3;
             Dicas_txt.Text = "Dicas para uma melhor gestão financeira pessoal.";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(12, 154);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(403, 222);
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
+            // 
             // PaginaInicial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
             Controls.Add(Dicas_txt);
             Controls.Add(MensalBtn);
             Controls.Add(SemanalBtn);
@@ -98,6 +113,7 @@
             Name = "PaginaInicial";
             Text = "PaginaInicial";
             Load += PaginaInicial_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -108,5 +124,6 @@
         private Button SemanalBtn;
         private Button MensalBtn;
         private Label Dicas_txt;
+        private PictureBox pictureBox1;
     }
 }

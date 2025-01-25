@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-
+using System.Text.RegularExpressions;
 
 namespace Projeto_PAP_WilliamAlves_24_25
 {
@@ -24,7 +24,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
         private void ConfigurePlaceholder()
         {
             
-            gmail_txt.Text = "Insira o seu gmail";
+            gmail_txt.Text = "Insira o seu email";
             gmail_txt.ForeColor = Color.DarkGoldenrod;
             password_txt.Text = "Insira sua Palavra-Passe";
             password_txt.ForeColor = Color.DarkGoldenrod;
@@ -51,7 +51,7 @@ namespace Projeto_PAP_WilliamAlves_24_25
             };
             gmail_txt.Enter += (s, e) =>
             {
-                if (gmail_txt.Text == "Insira o seu gmail")
+                if (gmail_txt.Text == "Insira o seu email")
                 {
                     gmail_txt.Text = "";
                     gmail_txt.ForeColor = Color.Gold;
@@ -62,25 +62,33 @@ namespace Projeto_PAP_WilliamAlves_24_25
             {
                 if (string.IsNullOrWhiteSpace(gmail_txt.Text))
                 {
-                    gmail_txt.Text = "Insira o seu gmail";
+                    gmail_txt.Text = "Insira o seu email";
                     gmail_txt.ForeColor = Color.DarkGoldenrod;
+
                 }
             };
         }
         private void registo_btn_Click(object sender, EventArgs e)
         {
-            string nomeUtilizador = gmail_txt.Text;
+            string email = gmail_txt.Text;
             string palavraPasse = password_txt.Text;
+
+            //Garante ser um provedor email
+            if (!IsValidEmail(email))
+            {
+                MessageBox.Show("Por favor, insira um email válido do Gmail, Hotmail ou outro provedor de email.");
+                return;
+            }
 
             // String de conexão à base de dados
             string connString = @"Server=JONNY;Database=UtilizadoresDB;Trusted_Connection=True;";
 
             using (SqlConnection conn = new SqlConnection(connString))
             {
-                string query = "INSERT INTO Utilizadores (NomeUtilizador, PalavraPasse) VALUES (@NomeUtilizador, @PalavraPasse)";
+                string query = "INSERT INTO Utilizadores (Email, PalavraPasse) VALUES (@Email, @PalavraPasse)";
 
                 SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@NomeUtilizador", nomeUtilizador);
+                cmd.Parameters.AddWithValue("@Email", email);
                 cmd.Parameters.AddWithValue("@PalavraPasse", palavraPasse);
 
                 conn.Open();
@@ -92,6 +100,12 @@ namespace Projeto_PAP_WilliamAlves_24_25
                 login Login = new login();
                 Login.Show();
             }
+        }
+
+        private bool IsValidEmail(string email)
+        {
+            string pattern = @"^[a-zA-Z0-9._%+-]+@(gmail\.com|hotmail\.com|outlook\.com|yahoo\.com)$";
+            return Regex.IsMatch(email, pattern);
         }
 
 
